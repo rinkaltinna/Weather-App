@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container
+{
+    margin: 2rem;
+    padding: 2rem 1rem;
+    box-shadow: 0px 0px 19px 0px #18bd9e;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cityform input
+{
+    border: none;
+    background-color: black;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+#cityform ul
+{
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+.btn
+{
+    border: none;
+    background: transparent;
+}
+
+#cityform
+{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.container img
+{
+    display: none;
+}
+
+#heading
+{
+    text-align: center ;
+    margin-bottom: 1rem;
+}
+
+#city
+{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#temperature
+{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#temperature sup
+{
+    font-size: 1.5rem;
+}
